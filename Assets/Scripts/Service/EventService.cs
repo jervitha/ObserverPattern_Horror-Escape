@@ -19,6 +19,7 @@ public class EventService
      }
 
     public EventsController OnLightSwitchToggled { get; private set; }
+    public EventsController<int> OnkeyPickedup { get; private set; }
     public EventService()
     {
         OnLightSwitchToggled = new EventsController();
